@@ -22,7 +22,8 @@ Once you've installed the .NET SDK, open a new terminal and run the following co
 ```dotnet tool install -g mlnet```
 
 ### I ran into this issue:
-``` ~/.dotnet/tools/mlnet
+```
+ ~/.dotnet/tools/mlnet
 It was not possible to find any compatible framework version
 The framework 'Microsoft.NETCore.App', version '3.1.0' was not found.
   - The following frameworks were found:
@@ -31,9 +32,10 @@ The framework 'Microsoft.NETCore.App', version '3.1.0' was not found.
 You can resolve the problem by installing the specified framework and/or SDK.
 
 The specified framework can be found at:
-  - https://aka.ms/dotnet-core-applaunch?framework=Microsoft.NETCore.App&framework_version=3.1.0&arch=x64&rid=osx.10.15-x64```
-  ### this is how I fixed it
-  ```dotnet --info```
+  - https://aka.ms/dotnet-core-applaunch?framework=Microsoft.NETCore.App&framework_version=3.1.0&arch=x64&rid=osx.10.15-x64
+  ```
+### this is how I fixed it
+```dotnet --info```
 
 It was not possible to find any compatible framework version
 The framework 'Microsoft.NETCore.App', version '3.1.0' was not found.
